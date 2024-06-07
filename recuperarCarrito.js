@@ -75,7 +75,8 @@ botonVaciarCarrito.addEventListener("click", vaciarCarrito)
 function vaciarCarrito() {
   const tableBody = document.getElementById("tableBody");
   tableBody.innerHTML = "";
-  localStorage.clear() 
+  localStorage.clear()
+tableBody.innerHTML = "";
   MensajeSinProductos()
   totalCompra.innerHTML = "&nbsp;"
 }
